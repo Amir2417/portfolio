@@ -1,0 +1,37 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.color{
+    
+    color: skyblue;
+}
+.first-part{
+    display: flex;
+    background-image: url('/first_back.jpg');
+    background-repeat: no-repeat;
+    
+}
+.half-part{
+    width: 50%;
+    margin-left: 30px;
+    margin-top: 90px;
+}
+.half-part img{
+    width: 100%;
+    filter: grayscale(100%);
+   
+}
+.half-part img:hover{
+    filter: grayscale(0%);
+}
+.link{
+    text-decoration: none;
+    border: 1px ;
+    background-image: radial-gradient(rgb(0, 60, 255),rgb(35, 131, 168));
+    color: white;
+    padding: 10px;
+}
